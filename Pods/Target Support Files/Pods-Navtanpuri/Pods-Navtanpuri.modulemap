@@ -1,0 +1,6 @@
+framework module Pods_Navtanpuri {
+  umbrella header "Pods-Navtanpuri-umbrella.h"
+
+  export *
+  module * { export * }
+}

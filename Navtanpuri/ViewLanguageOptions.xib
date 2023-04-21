@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="x6j-Ci-8r7" customClass="ViewLanguageOptions" customModule="Navtanpuri" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="auB-BP-lyj">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cKt-aF-b5p">
+                    <rect key="frame" x="38" y="266.5" width="300" height="134"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HK7-eJ-vPY">
+                            <rect key="frame" x="8" y="8" width="284" height="48"/>
+                            <color key="backgroundColor" red="0.031372549020000001" green="0.36470588240000001" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                            <state key="normal" title="Hindi">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ty-A9-pGu">
+                            <rect key="frame" x="8" y="78" width="284" height="48"/>
+                            <color key="backgroundColor" red="0.031372549020000001" green="0.36470588240000001" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                            <state key="normal" title="Gujarati">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="HK7-eJ-vPY" firstAttribute="leading" secondItem="cKt-aF-b5p" secondAttribute="leading" constant="8" id="0D1-Nr-H0M"/>
+                        <constraint firstItem="HK7-eJ-vPY" firstAttribute="top" secondItem="cKt-aF-b5p" secondAttribute="top" constant="8" id="0X4-e9-ciM"/>
+                        <constraint firstAttribute="trailing" secondItem="2Ty-A9-pGu" secondAttribute="trailing" constant="8" id="441-4l-Vcf"/>
+                        <constraint firstItem="2Ty-A9-pGu" firstAttribute="top" secondItem="HK7-eJ-vPY" secondAttribute="bottom" constant="22" id="HqA-1u-Elo"/>
+                        <constraint firstItem="2Ty-A9-pGu" firstAttribute="leading" secondItem="cKt-aF-b5p" secondAttribute="leading" constant="8" id="KAu-Z2-Z1J"/>
+                        <constraint firstAttribute="trailing" secondItem="HK7-eJ-vPY" secondAttribute="trailing" constant="8" id="MHb-aN-BRR"/>
+                        <constraint firstItem="2Ty-A9-pGu" firstAttribute="height" secondItem="HK7-eJ-vPY" secondAttribute="height" id="SO4-hj-Q9G"/>
+                        <constraint firstItem="2Ty-A9-pGu" firstAttribute="top" secondItem="HK7-eJ-vPY" secondAttribute="bottom" constant="22" id="jyf-yI-cmp"/>
+                        <constraint firstAttribute="bottom" secondItem="2Ty-A9-pGu" secondAttribute="bottom" constant="8" id="lWi-x7-0EL"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.44183095639999997" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="auB-BP-lyj" secondAttribute="trailing" id="2we-w2-ZqS"/>
+                <constraint firstItem="cKt-aF-b5p" firstAttribute="width" secondItem="x6j-Ci-8r7" secondAttribute="width" multiplier="0.8" id="Ega-cj-Lhl"/>
+                <constraint firstItem="cKt-aF-b5p" firstAttribute="height" secondItem="x6j-Ci-8r7" secondAttribute="height" multiplier="0.2" constant="0.5" id="GZ5-eN-Vkc"/>
+                <constraint firstItem="cKt-aF-b5p" firstAttribute="centerX" secondItem="x6j-Ci-8r7" secondAttribute="centerX" id="Gj4-Vc-e8r"/>
+                <constraint firstItem="auB-BP-lyj" firstAttribute="top" secondItem="x6j-Ci-8r7" secondAttribute="top" id="bWZ-Rm-mim"/>
+                <constraint firstAttribute="bottom" secondItem="auB-BP-lyj" secondAttribute="bottom" id="d3t-on-GmY"/>
+                <constraint firstItem="auB-BP-lyj" firstAttribute="leading" secondItem="x6j-Ci-8r7" secondAttribute="leading" id="quz-HA-dIp"/>
+                <constraint firstItem="cKt-aF-b5p" firstAttribute="centerY" secondItem="x6j-Ci-8r7" secondAttribute="centerY" id="tK7-xl-4ec"/>
+            </constraints>
+            <connections>
+                <outlet property="btnGujrati" destination="2Ty-A9-pGu" id="5yf-uj-pkd"/>
+                <outlet property="btnHindi" destination="HK7-eJ-vPY" id="Tiu-FS-3p2"/>
+                <outlet property="btnRemoveView" destination="auB-BP-lyj" id="6bf-fd-TDv"/>
+                <outlet property="viewBG" destination="cKt-aF-b5p" id="fFk-9z-ddq"/>
+            </connections>
+            <point key="canvasLocation" x="34.5" y="88.5"/>
+        </view>
+    </objects>
+</document>

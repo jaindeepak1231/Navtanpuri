@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>249658175106-jh3440ba1orbnds33cjgjm87ck48jcii.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.249658175106-jh3440ba1orbnds33cjgjm87ck48jcii</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAUznjtzpk4JoYy4ZebpbhjmT2JxQdmiPw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>249658175106</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.TriSoftDevelopers.Navtanpuri</string>
+	<key>PROJECT_ID</key>
+	<string>navtanpuri-media</string>
+	<key>STORAGE_BUCKET</key>
+	<string>navtanpuri-media.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:249658175106:ios:f161b812992a0f33</string>
+	<key>DATABASE_URL</key>
+	<string>https://navtanpuri-media.firebaseio.com</string>
+</dict>
+</plist>
